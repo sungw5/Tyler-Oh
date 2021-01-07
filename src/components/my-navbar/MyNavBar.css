@@ -1,0 +1,30 @@
+.logo {
+  width: 21%;
+}
+
+.nav-theme {
+  background-color: #fff;
+  font-size: 20px;
+  
+}
+
+.navbar-dark .navbar-nav .nav-link  {
+    color: rgba(0, 0, 0, 0.651);
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: gray;
+}
+
+.animate-navbar {
+  
+  animation: moveDown 0.5s ease-in-out;
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-5rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
