@@ -5,7 +5,7 @@
 .nav-theme {
   background-color: #fff;
   font-size: 20px;
-  
+  opacity: 85%;
 }
 
 .navbar-dark .navbar-nav .nav-link  {
