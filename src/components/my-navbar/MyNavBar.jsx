@@ -9,21 +9,24 @@ const MyNavbar = () => {
     <>
       <Navbar
         fixed="top"
-        variant="dark"
+        variant="light"
         expand="md"
         className="animate-navbar nav-theme justify-content-between"
       >
         <Navbar.Brand href="#home">
-          <img src={Logo} className="logo" alt="Tyler Oh logo" />
+          <img src={Logo} className="logo" alt="logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mc-auto">
-            <Nav.Link href="#about">WHO</Nav.Link>
-            <Nav.Link href="#project">WHAT/HOW</Nav.Link>
-            <Nav.Link href="#contact">WHERE</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+
+        <div>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ml-auto">
+              <Nav.Link href="#about">WHO</Nav.Link>
+              <Nav.Link href="#project">WHAT/HOW</Nav.Link>
+              <Nav.Link href="#contact">WHERE</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </div>
       </Navbar>
     </>
   );
