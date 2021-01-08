@@ -10,6 +10,8 @@
     font-size: 1.8em;
     color: #fff;
     font-family: 'Open Sans', sans-serif;  
+    font-weight: 900;
+    letter-spacing: 2px;
 }
 
 .row-lang, .row-frame {
