@@ -2,6 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import styled from "styled-components";
 import "./TitleMessage.css";
+import { motion } from "framer-motion";
 
 const MyTitleMessage = styled.h1`
   position: absolute;
@@ -49,7 +50,7 @@ const TitleMessage = () => (
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["Learner", "Software Developer", "Sung Woo Oh"],
+              strings: ["Learner", "Software Developer", "Designer"],
               autoStart: true,
               loop: true,
               delay: 50,

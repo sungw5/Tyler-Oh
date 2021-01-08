@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oxygen&family=Roboto:wght@100&family=Source+Serif+Pro:wght@400;600&display=swap');
+
+
+
+.skills{
+    background-color: rgb(59, 59, 59);
+}
+
+.skills-title{
+    font-size: 1.8em;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.row-lang, .row-frame {
+    background-color: rgb(59, 59, 59);
+}
