@@ -6,7 +6,7 @@ import "./MyNavBar.css";
 
 const MyNavbar = () => {
   return (
-    <>
+    <div id="home">
       <Navbar
         fixed="top"
         variant="light"
@@ -22,13 +22,14 @@ const MyNavbar = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link href="#about">WHO</Nav.Link>
-              <Nav.Link href="#project">WHAT/HOW</Nav.Link>
+              <Nav.Link href="#skill">WHAT</Nav.Link>
+              <Nav.Link href="#project">HOW</Nav.Link>
               <Nav.Link href="#contact">WHERE</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </div>
       </Navbar>
-    </>
+    </div>
   );
 };
 
