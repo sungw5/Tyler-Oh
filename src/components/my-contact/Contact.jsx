@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div id="contact">
       <div className="contact">
-        <h1 className="contact-heading pt-3 text-center font-details pb-3">
+        <h1 className="contact-heading pt-3 text-center pb-3">
           Reach Out To Me!
         </h1>
 
