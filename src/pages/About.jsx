@@ -8,7 +8,7 @@ import Image from "react-bootstrap/Image";
 import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Fade, AttentionSeeker } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (

@@ -3,11 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./Contact.css";
-import {
-  AwesomeButton,
-  AwesomeButtonProgress,
-  AwesomeButtonSocial,
-} from "react-awesome-button";
+import { AwesomeButton, AwesomeButtonSocial } from "react-awesome-button";
 import "react-awesome-button/dist/themes/theme-blue.css";
 import { AttentionSeeker } from "react-awesome-reveal";
 
@@ -53,11 +49,9 @@ const Contact = () => {
               </a>
             </Col>
             <Col xs={12} md={2}>
-              <a href="#">
-                <AwesomeButtonSocial type="facebook">
-                  Facebook
-                </AwesomeButtonSocial>
-              </a>
+              <AwesomeButtonSocial type="facebook">
+                Facebook
+              </AwesomeButtonSocial>
             </Col>
           </Row>
         </Container>

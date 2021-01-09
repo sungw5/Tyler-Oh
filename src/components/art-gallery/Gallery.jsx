@@ -8,7 +8,7 @@ import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "./Gallery.css";
 import TitlebarBelowImageList from "./QuiltedImageList";
 import "react-awesome-slider/dist/custom-animations/cube-animation.css";
-import { Fade, AttentionSeeker, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 

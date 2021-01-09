@@ -10,11 +10,7 @@ import paintingImg from "../../assets/img/painting-example.jpg";
 import moviedbImg from "../../assets/img/moviedb-example.jpg";
 import discordImg from "../../assets/img/discord-example.jpg";
 import Image from "react-bootstrap/Image";
-import {
-  AwesomeButton,
-  AwesomeButtonProgress,
-  AwesomeButtonSocial,
-} from "react-awesome-button";
+import { AwesomeButton, AwesomeButtonSocial } from "react-awesome-button";
 import "react-awesome-button/dist/themes/theme-blue.css";
 import { Fade } from "react-awesome-reveal";
 import Typewriter from "typewriter-effect";
