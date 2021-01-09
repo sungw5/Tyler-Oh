@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&family=Open+Sans:wght@400;700&family=Oxygen&family=Roboto:wght@100&family=Source+Serif+Pro:wght@400;600&display=swap');
+
+
+.contact {
+    /* background-color: rgb(247, 245, 238); */
+    background-color: rgb(59, 57, 55);
+}
+
+.contact-heading {
+    margin: 2em;
+    color: #fff;
+    opacity: 85%;
+    font-size: 3.6em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    transform: translateY(55%);
+}
+
+.email-icon{
+    width: 38px;
+    font-size: 1.6em;
+}
+
+.contact-message {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    opacity: 75%;
+    
+}
+
+.email-link {
+    color: #fff;
+}

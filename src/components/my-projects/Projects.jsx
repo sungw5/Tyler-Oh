@@ -287,7 +287,9 @@ const Projects = () => {
           </Row>
 
           <Row className="pt-3 pb-5 align-items-center justify-content-center">
-            <AwesomeButton type="primary">See More Project</AwesomeButton>
+            <a href="https://github.com/sungw5">
+              <AwesomeButton type="primary">See More Project</AwesomeButton>
+            </a>
           </Row>
         </Container>
       </div>
