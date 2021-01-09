@@ -8,8 +8,8 @@
 
 .contact-heading {
     margin: 1.2em 0 .7em;
-    color: #fff;
-    opacity: 85%;
+    color: rgba(255, 255, 255, 0.842);
+    opacity: 100%;
     font-size: 3.6em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -24,10 +24,10 @@
 
 .contact-message {
     text-align: center;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.87);
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4em;
-    opacity: 75%;
+    opacity: 100%;
     
 }
 
