@@ -2,7 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import styled from "styled-components";
 import "./TitleMessage.css";
-import { motion } from "framer-motion";
+import { Fade } from "react-awesome-reveal";
 
 const MyTitleMessage = styled.h1`
   position: absolute;
@@ -41,22 +41,28 @@ const TitleMessage = () => (
     <div className="titleMessage">
       <div className="heading">
         <div className="main text-center mb-3">
-          <small>Hello, I'm</small>
-          <br />
+          <Fade duration="1000">
+            <small>Hello, I'm</small>
+          </Fade>
+
           <span>
-            <strong>Tyler Oh</strong>
+            <Fade duration="3000">
+              <strong>Tyler Oh</strong>
+            </Fade>
           </span>
         </div>
-        <div className="sub">
-          <Typewriter
-            options={{
-              strings: ["Learner", "Software Developer", "Designer"],
-              autoStart: true,
-              loop: true,
-              delay: 50,
-            }}
-          />
-        </div>
+        <Fade duration="4000">
+          <div className="sub">
+            <Typewriter
+              options={{
+                strings: ["Learner", "Software Developer", "Designer"],
+                autoStart: true,
+                loop: true,
+                delay: 50,
+              }}
+            />
+          </div>
+        </Fade>
       </div>
     </div>
   </MyTitleMessage>

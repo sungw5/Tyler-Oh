@@ -8,7 +8,7 @@ const MyNavbar = () => {
   return (
     <div id="home">
       <Navbar
-        fixed="top"
+        // fixed="top"
         variant="light"
         expand="md"
         className="animate-navbar nav-theme justify-content-between"

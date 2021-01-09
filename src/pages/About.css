@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oxygen&family=Roboto:wght@100&family=Source+Serif+Pro:wght@400;600&display=swap');
+
+
+.about {
+  background-color: transparent;
+  font-size: 1.1em;
+  font-family: 'Open Sans', sans-serif;   
+}
+.about-small{
+    font-style: italic;
+    color: rgb(6, 128, 128);
+}
+
+.about-heading {
+  margin: 1.3em;
+}
+
+.profile {
+  max-width: 18em;
+}
+
+.my-details {
+  background-color: rgba(255, 255, 255, 0.747);
+}
+
+.my-details{
+    font-family: 'Oxygen', sans-serif;
+    margin-top: 1.1em;
+}

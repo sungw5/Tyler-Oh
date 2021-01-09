@@ -9,7 +9,7 @@ import {
   AwesomeButtonSocial,
 } from "react-awesome-button";
 import "react-awesome-button/dist/themes/theme-blue.css";
-import emoji from "react-easy-emoji";
+import { AttentionSeeker } from "react-awesome-reveal";
 
 const Contact = () => {
   return (
@@ -30,11 +30,13 @@ const Contact = () => {
 
           <Row className="pt-3 pb-5 align-items-center justify-content-center">
             <Col xs={12} md={2}>
-              <a href="mailto:sungbr95@gmail.com">
-                <AwesomeButton type="secondary">
-                  <i class="email-icon fas fa-envelope"></i>&nbsp;&nbsp;Email
-                </AwesomeButton>
-              </a>
+              <AttentionSeeker duration="2000" effect="rubberBand">
+                <a href="mailto:sungbr95@gmail.com">
+                  <AwesomeButton type="secondary">
+                    <i class="email-icon fas fa-envelope"></i>&nbsp;&nbsp;Email
+                  </AwesomeButton>
+                </a>
+              </AttentionSeeker>
             </Col>
 
             <Col xs={12} md={2}>
