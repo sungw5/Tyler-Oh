@@ -11,7 +11,7 @@ const MyNavbar = () => {
         // fixed="top"
         variant="light"
         expand="md"
-        className="animate-navbar nav-theme justify-content-between"
+        className="navbar animate-navbar nav-theme justify-content-between"
       >
         <Navbar.Brand href="#home">
           <img src={Logo} className="logo" alt="logo" />

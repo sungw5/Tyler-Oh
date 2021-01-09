@@ -5,6 +5,9 @@ html {
 .logo {
   width: 40%;
 }
+.navbar {
+  z-index: 2;
+}
 
 .nav-theme {
   background-color: #fff;
@@ -22,14 +25,11 @@ html {
     
 }
 
-
 .navbar-toggler {
     background-color: rgb(165, 165, 165);
-    
+    z-index: 2;
     
 }
-
-
 
 .animate-navbar {
   
