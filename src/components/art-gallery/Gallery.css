@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&family=Open+Sans:wght@400;700&family=Oxygen&family=Roboto:wght@100&family=Source+Serif+Pro:wght@400;600&display=swap');
+
+.gallery-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+

@@ -29,6 +29,11 @@ const Skills = () => {
     <div id="skills">
       <div className="skills">
         <Container>
+          <Fade duration="2000" direction="right">
+            <Row className="skills-title-letter justify-content-center  ">
+              SKILLS
+            </Row>
+          </Fade>
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={7}>
               <Slide duration="2000">
@@ -127,7 +132,7 @@ const Skills = () => {
 
             <Col xs={12} md={5}>
               <Row className="skills-title justify-content-center mb-2 mr-2 ">
-                <AttentionSeeker effect="jello" duration="4000">
+                <AttentionSeeker effect="jello" duration="2000">
                   <FaCode
                     size="5em"
                     color="white"

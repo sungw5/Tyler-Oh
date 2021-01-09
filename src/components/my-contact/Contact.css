@@ -7,13 +7,14 @@
 }
 
 .contact-heading {
-    margin: 2em;
+    margin: 1.2em 0 .7em;
     color: #fff;
     opacity: 85%;
     font-size: 3.6em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    transform: translateY(55%);
+    transform: translateY(35%);
+    
 }
 
 .email-icon{

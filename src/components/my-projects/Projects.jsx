@@ -37,7 +37,7 @@ const Projects = () => {
           <strong>"Projects"</strong> <small>)</small> */}
         </h1>
         <Container>
-          <Fade duration="1200">
+          <Fade duration="1200" delay="10">
             {/* OUTECH */}
             <Row className="pt-3 pb-5 align-items-center">
               <Col xs={12} md={6}>

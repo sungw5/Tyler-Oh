@@ -6,4 +6,5 @@
     background-position: 50%;
     background-attachment: fixed;
     background-size: cover;
+    transition: all 7s ease-out;
 }

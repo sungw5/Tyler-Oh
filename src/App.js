@@ -12,6 +12,7 @@ import Contact from "./components/my-contact/Contact";
 
 import "./App.css";
 import ScrollToTop from "react-scroll-to-top";
+import Gallery from "./components/art-gallery/Gallery";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Gallery />
       <Contact />
       <ScrollToTop smooth />
     </div>

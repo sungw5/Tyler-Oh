@@ -41,21 +41,26 @@ const TitleMessage = () => (
     <div className="titleMessage">
       <div className="heading">
         <div className="main text-center mb-3">
-          <Fade duration="1000">
+          <Fade duration="2000" delay="10">
             <small>Hello, I'm</small>
           </Fade>
 
           <span>
-            <Fade duration="3000">
+            <Fade duration="5000" delay="60">
               <strong>Tyler Oh</strong>
             </Fade>
           </span>
         </div>
-        <Fade duration="4000">
+        <Fade duration="4000" delay="90">
           <div className="sub">
             <Typewriter
               options={{
-                strings: ["Learner", "Software Developer", "Designer"],
+                strings: [
+                  "Learner",
+                  "Software Developer",
+                  "Learner",
+                  "Designer",
+                ],
                 autoStart: true,
                 loop: true,
                 delay: 50,
