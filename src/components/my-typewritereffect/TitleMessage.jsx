@@ -59,6 +59,7 @@ const TitleMessage = () => (
                   "Learner",
                   "Software Developer",
                   "Learner",
+                  "Software Developer",
                   "Designer",
                 ],
                 autoStart: true,
