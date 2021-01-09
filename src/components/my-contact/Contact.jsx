@@ -9,6 +9,7 @@ import {
   AwesomeButtonSocial,
 } from "react-awesome-button";
 import "react-awesome-button/dist/themes/theme-blue.css";
+import emoji from "react-easy-emoji";
 
 const Contact = () => {
   return (
@@ -23,11 +24,13 @@ const Contact = () => {
             Open for Opportunities: Yes
             <br />
             Let's get in touch, I prefer email :)
+            <br />
+            sungbr95@gmail.com
           </Row>
 
           <Row className="pt-3 pb-5 align-items-center justify-content-center">
             <Col xs={12} md={2}>
-              <a href="https://github.com/sungw5/my-discord-clone">
+              <a href="mailto:sungbr95@gmail.com">
                 <AwesomeButton type="secondary">
                   <i class="email-icon fas fa-envelope"></i>&nbsp;&nbsp;Email
                 </AwesomeButton>
@@ -35,20 +38,20 @@ const Contact = () => {
             </Col>
 
             <Col xs={12} md={2}>
-              <a href="https://github.com/sungw5/my-discord-clone">
+              <a href="https://github.com/sungw5/">
                 <AwesomeButtonSocial type="github">GitHub</AwesomeButtonSocial>
               </a>
             </Col>
 
             <Col xs={12} md={2}>
-              <a href="https://github.com/sungw5/my-discord-clone">
+              <a href="https://www.instagram.com/sunwu_o5/">
                 <AwesomeButtonSocial type="instagram">
                   Instagram
                 </AwesomeButtonSocial>
               </a>
             </Col>
             <Col xs={12} md={2}>
-              <a href="https://github.com/sungw5/my-discord-clone">
+              <a href="#">
                 <AwesomeButtonSocial type="facebook">
                   Facebook
                 </AwesomeButtonSocial>
