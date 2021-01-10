@@ -43,11 +43,10 @@ const About = () => {
                     <br />
                     I'm a computer science / mathematics student from
                     <br />
-                    The Pennsylvania State University graduating this Spring
-                    2021.
+                    the Pennsylvania State University graduating in Spring 2021.
                     <br />
                     I love learning about new technologies, solving problems,
-                    and analyzing other people's strength.
+                    and analyzing other people's strengths.
                     <br />
                     My goal is to become a developer who creates a meaningful
                     impact and gives motivations to hundreds of people.
@@ -63,7 +62,7 @@ const About = () => {
                     <Col className="d-flex justify-content-center flex-wrap">
                       <div>
                         <a
-                          href="/assets/doc/TylerOh-Resume2021W.pdf"
+                          href="https://github.com/sungw5/Tyler-Oh/blob/master/src/assets/doc/TylerOh-Resume2021W.pdf"
                           target="_blank"
                         >
                           <FontAwesomeIcon
