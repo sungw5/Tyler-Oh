@@ -61,10 +61,7 @@ const About = () => {
                     <br /> <br />
                     <Col className="d-flex justify-content-center flex-wrap">
                       <div>
-                        <a
-                          href="https://github.com/sungw5/Tyler-Oh/blob/master/src/assets/doc/TylerOh-Resume2021W.pdf"
-                          target="_blank"
-                        >
+                        <a href="https://github.com/sungw5/Tyler-Oh/blob/master/src/assets/doc/TylerOh-Resume2021W.pdf">
                           <FontAwesomeIcon
                             icon={faAddressCard}
                             size="3x"
