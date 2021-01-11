@@ -3,7 +3,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./About.css";
-import Profile from "../assets/img/selfie.jpg";
 import Image from "react-bootstrap/Image";
 import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
@@ -31,7 +30,7 @@ const About = () => {
                     <Image
                       className="profile justify-content-end"
                       alt="profile"
-                      src={Profile}
+                      src="https://github.com/sungw5/imgs/blob/main/IMG_4901%202.jpg?raw=true"
                       thumbnail
                       fluid
                     />

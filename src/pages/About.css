@@ -16,7 +16,7 @@
 }
 
 .profile {
-  max-width: 18em;
+  max-width: 22em;
 }
 
 .my-details {
@@ -26,4 +26,10 @@
 .my-details{
     font-family: 'Oxygen', sans-serif;
     margin-top: 1.1em;
+}
+
+.svg-inline--fa:hover {
+  opacity: 0.4;
+  transition: all 0.2s ease-in-out;
+  transform: translateY(-5%);
 }
