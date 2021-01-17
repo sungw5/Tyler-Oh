@@ -1,10 +1,10 @@
-import React from "react";
-import "./Skills.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import { faCuttlefish } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
+import './Skills.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import { faCuttlefish } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   DiJsBadge,
   DiHtml5,
@@ -18,11 +18,10 @@ import {
   DiJava,
   DiPhotoshop,
   DiIonic,
-} from "react-icons/di";
-
-import { SiPhp } from "react-icons/si";
-import { FaCode } from "react-icons/fa";
-import { Fade, AttentionSeeker, Slide } from "react-awesome-reveal";
+} from 'react-icons/di';
+import { SiPhp } from 'react-icons/si';
+import { FaCode } from 'react-icons/fa';
+import { Fade, AttentionSeeker, Slide } from 'react-awesome-reveal';
 
 const Skills = () => {
   return (
