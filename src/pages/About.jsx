@@ -1,13 +1,13 @@
-import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import "./About.css";
-import Image from "react-bootstrap/Image";
-import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Fade } from "react-awesome-reveal";
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import './About.css';
+import Image from 'react-bootstrap/Image';
+import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Fade } from 'react-awesome-reveal';
 
 const About = () => {
   return (
@@ -16,9 +16,9 @@ const About = () => {
         <div className="about">
           <Fade duration="2000">
             <h1 className="about-heading pt-3 text-center font-details pb-3">
-              <small className="about-small">import</small>{" "}
-              <strong>Passion</strong>{" "}
-              <small className="about-small">from</small>{" "}
+              <small className="about-small">import</small>{' '}
+              <strong>Passion</strong>{' '}
+              <small className="about-small">from</small>{' '}
               <strong>"Tyler.js"</strong>
             </h1>
           </Fade>
@@ -60,7 +60,7 @@ const About = () => {
                     <br /> <br />
                     <Col className="d-flex justify-content-center flex-wrap">
                       <div>
-                        <a href="https://github.com/sungw5/Tyler-Oh/blob/master/src/assets/doc/TylerOh-Resume2021W.pdf">
+                        <a href="#contact">
                           <FontAwesomeIcon
                             icon={faAddressCard}
                             size="3x"
