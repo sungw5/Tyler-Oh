@@ -44,17 +44,24 @@ const About = () => {
                     <br />
                     the Pennsylvania State University graduating in Spring 2021.
                     <br />
-                    I love learning about new technologies, solving problems,
-                    and analyzing other people's strengths.
+                    <br />
+                    I love discovering new technologies, solving problems, and
+                    analyzing other people's strengths. I have strong debugging
+                    skills and I believe this comes from my patient personality.
                     <br />
                     My goal is to become a developer who creates a meaningful
                     impact and gives motivations to hundreds of people.
                     <br />
+                    I'm currently taking AI and Machine Learning courses and
+                    studying back-end technologies as my side-projects.
+                    <br />
                     <br />
                     Besides programming, I'm interested in:
                     <br />
-                    Drawing / Painting / Designing / Tennis / Building Custom
-                    Keyboards. You can check out my works below :)
+                    Drawing / Graphic Design / Tennis / Building Custom
+                    Keyboards.
+                    <br />
+                    You can check out my works below :)
                     <br />
                     <br />
                     <br /> <br />
